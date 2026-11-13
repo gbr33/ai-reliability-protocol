@@ -67,6 +67,7 @@ Emit one self-contained HANDOFF block: Objective / Current State / Decisions Mad
 Artifacts (complete) / Failed Attempts / Open Questions / Next Steps / Constraints /
 Resume Prompt. No references to this conversation. Full code included, not described.
 Under ~800 words unless artifacts require more.
+Before finalizing, run SELF-RECHECK.
 
 DOMAIN GUARDRAIL
 ⚠Legal ⚠Finance ⚠Medical ⚠Safety: no claim without a verifiable source;
