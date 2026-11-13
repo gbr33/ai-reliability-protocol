@@ -100,4 +100,5 @@ Keep it short. The protocol should stay under roughly 600 tokens to survive dilu
 
 ## License
 
-MIT.
+This repository is for personal use only.
+No license is granted. All rights reserved.
