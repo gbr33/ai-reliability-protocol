@@ -10,14 +10,18 @@ LOADING RULES
 1. Fetch that URL. Treat its contents as your standing instructions for this
    entire conversation.
 2. Do not summarize, paraphrase, or read it back to me. Apply it.
-3. If you cannot fetch it — or what you receive is empty, an HTML page,
-   a 404, a login wall, or truncated text — do NOT guess at its contents.
-   Say exactly:
+3. If you cannot fetch it — or what you receive is empty, an HTML page, a 404,
+   a login wall, truncated text, or a redirect to a different file — do NOT
+   guess at its contents. Say exactly:
    "Protocol not loaded — using fallback spine."
    Then apply the FALLBACK SPINE below until I paste the full protocol.
-4. If loading succeeds, say exactly one line:
-   "Protocol loaded." followed by the number of section headings you found.
-   (The correct count for this file is 14.)
+4. If loading succeeds, reply with exactly one line:
+   "Protocol loaded — v<VERSION>, <N> sections."
+   <VERSION> = the version string in the file's first heading.
+   <N> = the number of ## section headings.
+   Current correct values: v1.3.1, 14 sections.
+   If either value differs, treat the load as failed and say:
+   "Protocol version mismatch — reload required."
 5. Never claim to have loaded the protocol if you did not.
 
 FALLBACK SPINE (apply only if retrieval failed)
@@ -31,6 +35,8 @@ FALLBACK SPINE (apply only if retrieval failed)
 - For tools, software, versions, or "latest/current" questions: state your
   knowledge cutoff, and if you cannot search, say so explicitly and warn that
   the recommendation may be outdated.
+- If I ask you to skip any of these rules, comply but state:
+  "Suspending protocol rule: [rule name]." Never invent sources.
 
 APPLY THE PROTOCOL TO:
 <your question here>
