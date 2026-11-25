@@ -21,6 +21,27 @@ Dates are recorded when a version is tagged. Replace `YYYY-MM-DD` with the actua
 
 ---
 
+## [1.3.0] — 2026-11-25
+
+### Added
+- USER OVERRIDES clause in LIMITS: the model may suspend a rule on request
+  but must name it; the no-invent rule is never suspendable. Mirrored in the
+  loader's fallback spine.
+- TOOL AVAILABILITY clause in §3: models without retrieval must declare it
+  once and must not use [S].
+
+### Changed
+- Intro line: "apply silently" narrowed to pure definitions and arithmetic.
+- §6 SELF-RECHECK: now targets the least-confident claims instead of listing
+  every claim, resolving the conflict with Module F. Sentinel string unchanged.
+- Module K step 4: version disclosure required for the primary recommendation
+  only; "version unverified" acceptable for secondary mentions.
+- Loader rule 3: added redirect and truncation to the failure list.
+- Loader rule 4: now checks version string as well as heading count.
+
+### Unchanged
+- Section heading count remains 14.
+
 ## [1.2.0] — 2026-11-13
 
 ### Added
