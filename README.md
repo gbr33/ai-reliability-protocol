@@ -1,5 +1,11 @@
 <!-- ai-reliability-protocol/README.md -->
 
+## The two files that matter
+- **ALL-IN-ONE.md** — the protocol (the rules).
+- **loader.md** — the prompt that loads it (the transport).
+
+Everything else in this repo is reference, modules, or history.
+
 # AI Reliability Protocol
 
 A copy-paste prompt protocol that makes AI models **show their work**: root-cause the problem, declare the tools they need, label the evidence behind each claim, and hand off cleanly when the chat runs out.
