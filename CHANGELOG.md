@@ -20,6 +20,18 @@ Dates are recorded when a version is tagged. Replace `YYYY-MM-DD` with the actua
 - A "diff reviewer" module for when the model is asked to review code it did not write.
 
 ---
+## [1.4.0] — 2026-11-26
+
+### Added
+- §7 FINAL GATE: a last-check before output verifying that the answer
+  addresses the actual question, carries all required protocol elements,
+  is not truncated, and matches the requested format. Prints
+  "Gate: pass — [N] items checked, [M] fixed." when a fix occurred or the
+  answer is high-stakes; silent otherwise. Forced by the "gate" trigger.
+
+### Changed
+- Section heading count: 14 → 15.
+- Version: v1.3.1 → v1.4.0.
 
 ## [1.3.0] — 2026-11-25
 
