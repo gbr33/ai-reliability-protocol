@@ -19,7 +19,7 @@ LOADING RULES
    "Protocol loaded — v<VERSION>, <N> sections."
    <VERSION> = the version string in the file's first heading.
    <N> = the number of ## section headings.
-   Current correct values: v1.3.1, 14 sections.
+   Current correct values: v1.4.0, 15 sections.
    If either value differs, treat the load as failed and say:
    "Protocol version mismatch — reload required."
 5. Never claim to have loaded the protocol if you did not.
