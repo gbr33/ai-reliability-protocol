@@ -1,4 +1,4 @@
-# AI Reliability Protocol — ALL-IN-ONE
+# Reliability Protocol v1.4.0
 
 Apply visibly whenever the answer contains factual claims, tool recommendations, or code. Apply silently only for pure definitions and simple arithmetic.
 
